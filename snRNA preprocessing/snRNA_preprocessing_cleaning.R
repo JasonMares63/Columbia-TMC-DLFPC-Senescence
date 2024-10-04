@@ -596,7 +596,7 @@ dp2 <- DotPlot(obj,features=c("SNAP25","SLC17A7","RORB","THEMIS","CUX2","CTGF",
                               "CDKN1A","CDKN2A"))+RotatedAxis()
 
 
-png(paste0(output_dir,"DOT_PLOT6_ALL_BATCHES_Allen.png"), height=10,width=11,units='in',res=800)
+png(paste0(output_dir,"DOT_PLOT6_ALL_BATCHES.png"), height=10,width=11,units='in',res=800)
 print(dp2)
 dev.off()
 
